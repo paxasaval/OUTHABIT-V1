@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>OUTHABIT - Información</title>
+  <title>OutHabit - Información</title>
 	<link rel="icon" href="img/app_OUTHABIT.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
@@ -14,7 +14,9 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 
-  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/myStyle.css">
+  <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -32,10 +34,10 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="feature.html">Información</a></li>
-              <li class="nav-item"><a class="nav-link" href="pricing.html">Paquetes</a>
-              <li class="nav-item"><a class="nav-link" href="contact.html">¿Quiénes Somos?</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item active"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="pricing.html">Planes</a>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contactanos</a></li>
             </ul>
 
             <ul class="navbar-right">
@@ -54,7 +56,7 @@
   <section class="hero-banner hero-banner--sm mb-30px">
     <div class="container">
       <div class="hero-banner--sm__content">
-        <h1>¿QUÉ SOMOS?</h1>
+        <h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em">¿Que es OutHabit?</h1>
         <nav aria-label="breadcrumb" class="banner-breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Inicio</a></li>
@@ -72,7 +74,7 @@
     <div class="container">
       <div class="section-intro pb-85px text-center">
         <h2 class="section-intro__title" style="margin-top: -80px">OUTHABIT Te Ofrece</h2>
-        <p class="section-intro__subtitle">OUTHABIT es una plataforma de educación que busca romper todos los moldes en los que hemos estado enfrascados para demostrarle al mundo que las matemáticas pueden ser divertidas. Construiremos una educación del futuro con el uso de una metodología innovadora totalmente enfocada  a las afinidades, necesidades  y experiencias  de cada estudiante</p>
+        <p class="section-intro__subtitle">Una plataforma de educación que busca romper todos los moldes en los que hemos estado enfrascados para demostrarle al mundo que las matemáticas pueden ser divertidas. Construiremos una educación del futuro con el uso de una metodología innovadora totalmente enfocada  a las afinidades, necesidades  y experiencias  de cada estudiante</p>
       </div>
 
       <div class="row">
@@ -85,7 +87,7 @@
                   <i class="ti-pencil-alt"></i>
                 </span>
                 <h4>Facil Aprendisaje</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                <p>Antes de cada tutoria en vivo nuestro sistema reforzara tus conocimientos nescesarios.</p>
               </div>
             </div>
 
@@ -95,7 +97,7 @@
                   <i class="ti-ruler-pencil"></i>
                 </span>
                 <h4>Herramientas de Vanguardia</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                <p>VIdeos Interactivos(VI), Juegos Educativos, Tutoria en Vivo, entre otras</p>
               </div>
             </div>
           </div>
@@ -107,7 +109,7 @@
                   <i class="ti-cut"></i>
                 </span>
                 <h4>Personal Capacitado</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                <p>OutHabit se asegura de evaluar a tus tutores</p>
               </div>
             </div>
 
@@ -117,7 +119,7 @@
                   <i class="ti-light-bulb"></i>
                 </span>
                 <h4>Nueva Metodologia</h4>
-                <p>Posuere porttitor justo ornare dictum ultricies enim imperdiet integer habitant.</p>
+                <p>Hemos conectado a cientos de jovenes y profesiones para llevar el conocimiento hasta tu casa.</p>
               </div>
             </div>
           </div>
@@ -294,6 +296,36 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
   <!-- ================ End footer Area ================= -->
+
+  <!--ALERT DIALOG -->
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="subscribeModalLabel">Entra</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="form-control-label">Usuario</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com"><br>
+                  <label for="recipient-name" class="form-control-label">Contraseña</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="Contraseña">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="sign up - student.html"><button type="button" class="btn btn-default">Registrat - Alumno</button></a>
+              <a href="sign up - teacher.html"><button type="button" class="btn btn-default">Registrat - Teacher</button></a>
+              <a href="#"><button type="button" class="btn btn-default">Ingresa</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  <!-- -->
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>

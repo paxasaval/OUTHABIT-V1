@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/myStyle.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -32,10 +34,10 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">Que Somos?</a></li>
-              <li class="nav-item"><a class="nav-link" href="pricing.html">Paquetes</a>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Quienes Somos?</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="pricing.html">Planes</a>
+              <li class="nav-item active"><a class="nav-link" href="contact.html">Contactanos</a></li>
             </ul>
 
             <ul class="navbar-right">
@@ -56,11 +58,11 @@
   <section class="hero-banner hero-banner--sm mb-30px">
     <div class="container">
       <div class="hero-banner--sm__content">
-        <h1>Quienes Somos?</h1>
+        <h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em">Contacte con Nosotros</h1>
         <nav aria-label="breadcrumb" class="banner-breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Quienes Somos?</li>
+            <li class="breadcrumb-item active" aria-current="page">Contactanos</li>
           </ol>
         </nav>
       </div>
@@ -108,22 +110,22 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>California United States</h3>
-              <p>Santa monica bullevard</p>
+              <h3>Loja - Ecuador</h3>
+              <p>Oficinas de PRENDHO</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-headphone"></i></span>
             <div class="media-body">
               <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <p>Lun a Vier 9am a 6pm</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
               <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
-              <p>Send us your query anytime!</p>
+              <p>Envie su mensaje a cualquier hora</p>
             </div>
           </div>
         </div>
@@ -234,6 +236,36 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
   <!-- ================ End footer Area ================= -->
+
+  <!--ALERT DIALOG -->
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="subscribeModalLabel">Entra</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="form-control-label">Usuario</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com"><br>
+                  <label for="recipient-name" class="form-control-label">Contraseña</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="Contraseña">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="sign up - student.html"><button type="button" class="btn btn-default">Registrat - Alumno</button></a>
+              <a href="sign up - teacher.html"><button type="button" class="btn btn-default">Registrat - Teacher</button></a>
+              <a href="#"><button type="button" class="btn btn-default">Ingresa</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  <!-- -->
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>

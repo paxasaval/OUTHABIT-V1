@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>OUTHABIT - Planes</title>
+  <title>OutHabit - Planes</title>
 	<link rel="icon" href="img/app_OUTHABIT.png" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/myStyle.css">
+  <link rel="stylesheet" href="css/pricing.css">
 </head>
 <body>
   <!--================Header Menu Area =================-->
@@ -32,10 +34,10 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav justify-content-end">
-              <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">Que Somos?</a></li>
-              <li class="nav-item"><a class="nav-link" href="pricing.html">Paquetes</a>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Quienes Somos?</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nosotros</a></li>
+              <li class="nav-item active"><a class="nav-link" href="pricing.html">Planes</a>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contactanos</a></li>
             </ul>
 
             <ul class="navbar-right">
@@ -55,7 +57,7 @@
   <section class="hero-banner hero-banner--sm mb-30px">
     <div class="container">
       <div class="hero-banner--sm__content">
-        <h1>Planes</h1>
+        <h1 style="color: white; text-shadow: black 0.1em 0.1em 0.2em">Planes</h1>
         <nav aria-label="breadcrumb" class="banner-breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Inicio</a></li>
@@ -73,7 +75,7 @@
     <div class="container">
       <div class="section-intro pb-85px text-center">
         <h2 class="section-intro__title">Elige tu Plan</h2>
-        <p class="section-intro__subtitle">Vel aliquam quis, nulla pede mi commodo tristique nam hac. Luctus torquent velit felis commodo pellentesque nulla cras. Tincidunt hacvel alivquam quis nulla pede mi commodo tristique nam hac  luctus torquent</p>
+        <p class="section-intro__subtitle">OutHabit es nueva plataforma interactiva de enseñanza pensada para jóvenes por lo tanto te presentamos nuestros planes esperando que se ajusten a tu necesidad.</p>
       </div>
 
 
@@ -83,7 +85,7 @@
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
               <h4>Ordinaria</h4>
-              <p>50%</p>
+              <p></p>
               <h1 class="card-pricing__price"><span>$</span>7.00</h1>
             </div>
             <ul class="card-pricing__list">
@@ -103,7 +105,7 @@
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
               <h4>Promocion 5 Hrs.</h4>
-              <p>20%</p>
+              <p></p>
               <h1 class="card-pricing__price"><span>$</span>33.75</h1>
             </div>
             <ul class="card-pricing__list">
@@ -123,7 +125,7 @@
           <div class="card text-center card-pricing">
             <div class="card-pricing__header">
               <h4>Promocion 10 Hrs.</h4>
-              <p>10%</p>
+              <p></p>
               <h1 class="card-pricing__price"><span>$</span>65.00</h1>
             </div>
             <ul class="card-pricing__list">
@@ -143,7 +145,7 @@
             <div class="card text-center card-pricing">
               <div class="card-pricing__header">
                 <h4>Promocion 15 Hrs.</h4>
-                <p>10%</p>
+                <p></p>
                 <h1 class="card-pricing__price"><span>$</span>93.75</h1>
               </div>
               <ul class="card-pricing__list">
@@ -158,7 +160,7 @@
               </div>
             </div>
           </div>
-          <!--PAQUETE 5-->
+          <!--PAQUETE 5
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card text-center card-pricing">
               <div class="card-pricing__header">
@@ -178,6 +180,7 @@
               </div>
             </div>
           </div>
+        -->
         </div>
       </div>
   </section>
@@ -345,6 +348,36 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
   <!-- ================ End footer Area ================= -->
+
+  <!--ALERT DIALOG -->
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="subscribeModalLabel">Entra</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="form-control-label">Usuario</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com"><br>
+                  <label for="recipient-name" class="form-control-label">Contraseña</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="Contraseña">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="sign up - student.html"><button type="button" class="btn btn-default">Registrat - Alumno</button></a>
+              <a href="sign up - teacher.html"><button type="button" class="btn btn-default">Registrat - Teacher</button></a>
+              <a href="#"><button type="button" class="btn btn-default">Ingresa</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+  <!-- -->
 
 
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
