@@ -6,6 +6,7 @@
     font-weight: normal;
     src: local('Gotham Book'), url('GothamBook.woff') format('woff');
 }
+
 .hero-banner::after {
     content: "";
     display: block;
@@ -14,14 +15,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-    background: url(../img/banner/img6.jpg) left center no-repeat;
-=======
-    background: url(../img/banner/img3.jpg) left center no-repeat;
->>>>>>> 8d5b6d239122c31000e6ab9ba85aaa35a6a385bd
+    background: url(../img/banner/img8.jpg) left center no-repeat;
     background-size: cover;
     z-index: -1;
 }
+
 .selected-box{
 font-family:"Rajdhani",sans-serif;
 border: 1px solid #ced4da;

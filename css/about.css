@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:400,600,700");
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+@font-face {
+    font-family: 'Gotham Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gotham Book'), url('GothamBook.woff') format('woff');
+}
 .hero-banner::after {
     content: "";
     display: block;
