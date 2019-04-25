@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:400,600,700");
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
 .hero-banner::after {
     content: "";
     display: block;
@@ -9,4 +11,7 @@
     background: url(../img/banner/img2.jpg) left center no-repeat;
     background-size: cover;
     z-index: -1;
+}
+.hero-banner--sm__content{
+     font-family:'Rajdhani',sans-serif;
 }
